@@ -15,4 +15,4 @@ def get_patients():
 def create_patient():
     new_patient_data = request.json
     add_patient(new_patient_data)
-    return jsonify({"message": "Patient added successfully"}), 201
+    return jsonify({"message": "Patient added successfully"}), 20
